@@ -1,2 +1,10 @@
 server:
   port: 8001
+
+grpc:
+  server:
+   port: 6565
+
+spring:
+  jpa:
+   defer-datasource-initialization: true

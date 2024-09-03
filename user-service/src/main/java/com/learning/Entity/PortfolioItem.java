@@ -38,4 +38,22 @@ public class PortfolioItem {
   public Integer getQuantity() {
     return quantity;
   }
+
+  public void setId(Integer id) {
+    this.id = id;
+  }
+
+  public void setUserId(Integer userId) {
+    this.userId = userId;
+  }
+
+  public void setTicker(Ticker ticker) {
+    this.ticker = ticker;
+  }
+
+  public void setQuantity(Integer quantity) {
+    this.quantity = quantity;
+  }
+
+
 }
