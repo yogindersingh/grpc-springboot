@@ -25,4 +25,16 @@ public class User {
   public Integer getBalance() {
     return balance;
   }
+
+  public void setId(Integer id) {
+    this.id = id;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public void setBalance(Integer balance) {
+    this.balance = balance;
+  }
 }
