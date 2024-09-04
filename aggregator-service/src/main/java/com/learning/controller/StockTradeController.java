@@ -16,7 +16,7 @@ public class StockTradeController {
   @Autowired
   private StockService stockService;
 
-  @PostMapping(value = "/trade",produces = MediaType.APPLICATION_JSON_VALUE)
+  @PostMapping(value = "/stocktrade",produces = MediaType.APPLICATION_JSON_VALUE)
   public StockTradeResponse stockTradeResponse(
       @RequestBody
       StockTradeRequest stockTradeRequest) {
