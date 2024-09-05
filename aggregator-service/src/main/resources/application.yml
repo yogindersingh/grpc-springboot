@@ -6,6 +6,6 @@ grpc:
   user-service:
    address: static://localhost:6565
    negotiationType: PLAINTEXT
-#  other-service:
-#   address: static://localhost:7575
-#   negotiationType: PLAINTEXT
+  stock-service:
+   address: static://localhost:6566
+   negotiationType: PLAINTEXT

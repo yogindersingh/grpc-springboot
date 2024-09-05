@@ -12,7 +12,7 @@ public class StockService {
   @GrpcClient("user-service")
   UserServiceGrpc.UserServiceBlockingStub userServiceBlockingStub;
 
-  public StockTradeResponse getStockTrade(StockTradeRequest stockTradeRequest) {
+  public StockTradeResponse stockTrade(StockTradeRequest stockTradeRequest) {
     return userServiceBlockingStub.tradeStock(stockTradeRequest);
   }
 
