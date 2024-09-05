@@ -20,7 +20,7 @@ public class StockTradeController {
   public StockTradeResponse stockTradeResponse(
       @RequestBody
       StockTradeRequest stockTradeRequest) {
-    return stockService.getStockTrade(stockTradeRequest);
+    return stockService.stockTrade(stockTradeRequest);
   }
 
 
